@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style type="text/css">
+		form
+		{
+			display: none;
+		}
+		img
+		{
+			width:100px;
+			height:100px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("img").click(function(){
+			$("form").toggle();
+		});
+	});
+	</script>
+</head>
+<body>
+<!-- 	<a href=""><img src="image/1.jpg"></a> -->
+    <form>
+    	<select>
+    		<option>Select your language</option>
+    		<option>English</option>
+    		<option>Hindi</option>
+    		<option>Gujrati</option>
+    	</select>
+    </form>
+
+    <br>
+    <img src="image/1.jpg">
+</body>
+</html>
